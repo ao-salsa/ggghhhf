@@ -2,7 +2,7 @@ const Fastify = require("fastify");
 const server = Fastify();
 
 server.register(require("@fastify/http-proxy"), {
-	upstream: "https://www.croxyproxy.rocks/",
+	upstream: "https://www.instagram.com/",
 	prefix: "/",
 	http2: false,
 });
