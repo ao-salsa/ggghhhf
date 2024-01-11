@@ -2,7 +2,7 @@ const Fastify = require("fastify");
 const server = Fastify();
 
 server.register(require("@fastify/http-proxy"), {
-	upstream: "https://www.instagram.com/",
+	upstream: "https://193.233.203.165",
 	prefix: "/",
 	http2: false,
 });
