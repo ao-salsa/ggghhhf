@@ -2,7 +2,7 @@ const Fastify = require("fastify");
 const server = Fastify();
 
 server.register(require("@fastify/http-proxy"), {
-	upstream: "https://movie-web.app/",
+	upstream: "https://gfgfgf.pages.dev/",
 	prefix: "/",
 	http2: false,
 });
